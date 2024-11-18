@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Hong Kong Port - Plan de Inversion</title>
+    <!-- Agregar Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Icono para la pestaña -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'><path d='M0 0h24v24H0z' fill='none'/><path d='M12 2C8.13 2 5 5.13 5 9c0 2.4 1.24 4.44 3.08 5.61.62-.46 1.36-.81 2.12-1.09C10.56 13.08 11.72 13 12 13c.28 0 1.44.08 1.8.52.76.28 1.5.63 2.12 1.09C17.76 13.44 19 11.4 19 9c0-3.87-3.13-7-7-7zm0 2c2.76 0 5 2.24 5 5 0 1.44-.81 2.65-1.92 3.25-.78-.73-1.69-1.34-2.68-1.7-.85-.48-1.74-.55-2.5-.55-1.04 0-2.04.05-3.04.42-.69-.34-1.24-.89-1.63-1.5C9.24 6.24 10.52 5 12 5z'/></svg>" />
+    <!--
+
+Template 2085 Neuron
+
+http://www.tooplate.com/view/2085-neuron
+
+-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- PRE LOADER -->
+
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-wordpress">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </div>
+
+    <!-- Navigation section  -->
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    <i class="fas fa-ship"></i>
+                    <!-- Ícono de barco -->
+                    Hong Kong Port
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="gallery.html">Historia</a></li>
+                    <li><a href="contact.html">Objetivos y Propositos</a></li>
+                    <!-- Menú desplegable "Más" -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Más <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="single-post.html">Plan de Inversión</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#visionMisionModal">Visión y
+                                    Misión</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#riesgosModal">Riesgos</a></li>
+                            <li class="divider"></li>
+                            <li><a href="single-post2.html">Analisis Estrategico</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="visionMisionModal" tabindex="-1" role="dialog" aria-labelledby="visionMisionModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="visionMisionModalLabel">Visión y Misión</h4>
+                </div>
+                <div class="modal-body">
+                    <h5><strong>Misión:</strong></h5>
+                    <p>
+                        Garantizar la excelencia operativa y la sostenibilidad en la gestión portuaria,
+                        consolidándonos como un centro logístico líder a nivel global. Aprovechamos la tecnología
+                        de punta y el talento humano para ofrecer servicios eficientes, seguros y competitivos,
+                        conectando mercados internacionales y fortaleciendo el comercio global.
+                    </p>
+                    <h5><strong>Visión:</strong></h5>
+                    <p>
+                        Ser el puerto más innovador y eficiente del mundo, liderando la transformación de la
+                        industria marítima a través de prácticas sostenibles, avances tecnológicos y una
+                        conectividad global sin precedentes. Nos esforzamos por mantener nuestro estatus como un
+                        eje clave del comercio internacional, contribuyendo al desarrollo económico y ambiental de
+                        las futuras generaciones.
+                    </p>
+
+                    <!-- Imagen ajustada al tamaño del modal -->
+                    <div class="text-center mt-4">
+                        <img src="images/Mision1.jpg" class="img-fluid modal-image" alt="Imagen representativa">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Riesgos -->
+    <div class="modal fade" id="riesgosModal" tabindex="-1" role="dialog" aria-labelledby="riesgosModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="riesgosModalLabel">Riesgos</h4>
+                </div>
+                <div class="modal-body">
+                    <h5><strong>Riesgos Identificados:</strong></h5>
+                    <ul>
+                        <li><strong>Políticos:</strong> Cambios en las relaciones entre Hong Kong y China;
+                            políticas arancelarias globales.</li>
+                        <li><strong>Económicos:</strong> Recesión global que afecte el comercio marítimo.</li>
+                        <li><strong>Ambientales:</strong> Fenómenos climáticos extremos que afecten la
+                            operatividad del puerto.</li>
+                        <li><strong>Tecnológicos:</strong> Ciberataques o fallas en la implementación de nuevas
+                            tecnologías.</li>
+                        <li><strong>Competitivos:</strong> Pérdida de cuota de mercado frente a puertos con
+                            menores costos.</li>
+                    </ul>
+
+                    <!-- Imagen ajustada al tamaño del modal -->
+                    <div class="text-center mt-4">
+                        <img src="images/Riesgos.png" class="img-fluid modal-image"
+                            alt="Imagen representativa de riesgos">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS personalizado -->
+    <style>
+        .modal-image {
+            max-width: 100%;
+            /* Asegura que no exceda el ancho del modal */
+            height: auto;
+            /* Mantiene la proporción original */
+            border-radius: 5px;
+            /* Opcional: redondear los bordes */
+        }
+    </style>
+
+    <!-- Home Section -->
+
+    <section id="home" class="main-single-post parallax-section"
+        style="background-image: url('images/Analisis.jpg'); background-size: cover; background-position: center;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Análisis Estratégico</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="estrategia" class="container">
+        <div class="container">
+            <!-- Encabezado con autor y fecha -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-title" style="font-size: 2.5em;">FODA, Competencias y KPI
+                    </h2>
+                    <p style="font-size: 1.2em;">
+                        Este análisis tiene como objetivo identificar las principales fortalezas, oportunidades,
+                        debilidades y amenazas del puerto de Hong Kong.
+                        Además, se busca establecer estrategias clave y mediciones para maximizar su competitividad en
+                        un entorno global.
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center mt-3">
+                        <img src="images/IMG_2994.jpeg" alt="Autor del artículo" class="rounded-circle shadow"
+                            style="width: 70px; height: 70px; object-fit: cover; border: 3px solid #ccc;">
+                        <div class="ms-2">
+                            <p class="mb-0"><strong>Autor:</strong> Alejandra Londoño</p>
+                            <p class="mb-0"><strong>Fecha de publicación:</strong> 17 de noviembre, 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FODA -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading text-center">
+                            <h3>Fortalezas</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Ubicación estratégica en Asia, conectando rutas comerciales clave.</li>
+                                <li>Infraestructura moderna y capacidad para manejar grandes volúmenes de carga.</li>
+                                <li>Reconocido como uno de los principales puertos de transbordo del mundo.</li>
+                                <li>Políticas de libre comercio y bajos impuestos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+                            <h3>Oportunidades</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Expansión del comercio marítimo en Asia-Pacífico.</li>
+                                <li>Crecimiento de la Iniciativa de la Franja y la Ruta (Belt and Road Initiative).</li>
+                                <li>Adopción de tecnologías portuarias avanzadas (automatización, blockchain).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading text-center">
+                            <h3>Debilidades</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Dependencia de la economía china, lo que puede limitar la diversificación.</li>
+                                <li>Competencia creciente de otros puertos asiáticos como Singapur, Shanghái y Busan.
+                                </li>
+                                <li>Espacio limitado para expansión física en la región.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading text-center">
+                            <h3>Amenazas</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Tensión política entre Hong Kong y China que podría afectar la inversión.</li>
+                                <li>Disminución del comercio global debido a incertidumbres económicas o conflictos
+                                    geopolíticos.</li>
+                                <li>Regulaciones ambientales más estrictas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Espacio para Imagen -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="images/KPI.jpg" class="img-responsive img-thumbnail center-block"
+                        alt="Puerto de Hong Kong">
+                    <p class="text-muted">Vista Aerea de Salida</p>
+                </div>
+            </div>
+            <br>
+
+            <!-- Competencias -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-center">
+                            <h3>Competencias</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><strong>Puertos Competidores Directos:</strong> Singapur, Shanghái, Shenzhen y Busan.</p>
+                            <p><strong>Ventajas Comparativas:</strong></p>
+                            <ul>
+                                <li>Mayor eficiencia en transbordo.</li>
+                                <li>Red de conexiones internacionales.</li>
+                            </ul>
+                            <p><strong>Desafíos Competitivos:</strong></p>
+                            <ul>
+                                <li>Innovación tecnológica en otros puertos.</li>
+                                <li>Menores costos en puertos alternativos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Estrategias y KPI -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-info">
+                        <div class="panel-heading text-center">
+                            <h3>Estrategias y KPI (Indicadores Clave de Desempeño)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><strong>Estrategias:</strong></p>
+                            <ul>
+                                <li>Modernización tecnológica: Implementación de sistemas de logística inteligente y
+                                    automatización.</li>
+                                <li>Sostenibilidad: Reducción de la huella de carbono y adopción de prácticas verdes.
+                                </li>
+                                <li>Diversificación: Ampliación de servicios (almacenaje, logística terrestre, valor
+                                    añadido).</li>
+                                <li>Colaboración regional: Integración con la región de la Gran Área de la Bahía
+                                    (Greater Bay Area).</li>
+                            </ul>
+                            <p><strong>KPI propuestos:</strong></p>
+                            <ul>
+                                <li>Tiempo promedio de carga/descarga por barco.</li>
+                                <li>Tasa de ocupación de terminales.</li>
+                                <li>Ingresos por tonelada de carga manejada.</li>
+                                <li>Reducción de emisiones de CO₂ por tonelada de carga.</li>
+                                <li>Participación en el mercado global de transbordo (%).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <h3><i class="fas fa-ship"></i>Hong Kong Port</h3>
+
+                    <p>
+                        Puerto de aguas profundas dominado por el comercio de productos manufacturados en
+                        contenedores y en menor medida de materias primas y pasajeros.
+                    </p>
+                    <div class="footer-copyright">
+                        <p>Copyright &copy; 2024 Hong Kong Port</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-md-offset-1 col-sm-6">
+                    <h3>Contactanos</h3>
+                    <p>
+                        <i class="fa fa-globe"></i> XCW5+WF2, Panamá, Provincia de Panamá Oeste
+                    </p>
+                    <p><i class="fa fa-phone"></i> 234-45677</p>
+                    <p><i class="fa fa-save"></i> Honk-Kong@company.com</p>
+                </div>
+
+                <div class="clearfix col-md-12 col-sm-12">
+                    <hr />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <ul class="social-icon">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back top -->
+    <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- SCRIPTS -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
